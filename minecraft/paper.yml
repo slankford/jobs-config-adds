@@ -10,7 +10,6 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-allow-perm-block-break-exploits: false
 verbose: false
 config-version: 20
 settings:
