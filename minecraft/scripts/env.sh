@@ -3,7 +3,7 @@
 
 export \
     ENV_MC_HOME='/srv/minecraft' \
-    ENV_SCREEN_NAME='SettleScape' \
+    ENV_SCREEN_NAME='BetaScape' \
     ENV_SERVER_JAR='server.jar'
     ENV_SERVER_ROOT='../' \
     ENV_VERSION='1.16.2' \
