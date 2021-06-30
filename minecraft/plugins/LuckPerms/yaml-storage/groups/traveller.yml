@@ -4,7 +4,7 @@ parents:
 prefixes:
 - '&aTraveller&r': {}
 permissions:
-- weight.11
+- weight.102
 # - displayname.traveler
 - essentials.kits.traveller
 
@@ -20,6 +20,7 @@ permissions:
 
 # Basic quality of life improvements
 - essentials.workbench
+- essentials.stonecutter
 - essentials.clearinventory
 - craftbook.mech.ammeter.use
 - craftbook.mech.lightstone.use

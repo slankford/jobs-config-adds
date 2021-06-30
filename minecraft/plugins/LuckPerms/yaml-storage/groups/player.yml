@@ -147,7 +147,10 @@ permissions:
 # - essentials.signs.create.mail
 # - essentials.signs.use.mail
 # - essentials.signs.break.mail
+- mcmmo.commands.mcrank
+- OpenInv.spectate
 - rankup.auto: {value: false}
+- rankup.playtime.get
 
 # Restrictions
 #-------------------------------------------------------------------------------

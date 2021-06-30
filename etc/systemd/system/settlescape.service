@@ -1,0 +1,24 @@
+[Unit]
+Description=settlescape server
+After=network.target
+
+[Service]
+Type=idle
+
+Restart=on-failure
+RestartSec=5s
+
+## Uncomment when run as system service;  comment when run as user service.
+#  User=minecraft
+# Group=minecraft
+
+Environment="TERM=xterm-16color"
+WorkingDirectory=/srv/minecraft/settlescape/minecraft/scripts
+
+ ExecStart=/srv/minecraft/settlescape/minecraft/scripts/start-server.bash -d
+ExecReload=/srv/minecraft/settlescape/minecraft/scripts/restart-server.sh -d
+  ExecStop=/srv/minecraft/settlescape/minecraft/scripts/stop-server.sh
+
+[Install]
+## Use "multi-user" when a system service;  use "default" when a user service.
+WantedBy=default.target
